@@ -14,21 +14,11 @@ import '@material-tailwind/react/tailwind.css';
 function App() {
     return (
         <Switch>
-            <Route exact path="/">
-                <Landing />
-            </Route>
-            <Route exact path="/pages/landing">
-                <Landing />
-            </Route>
-            <Route exact path="/pages/profile">
-                <Profile />
-            </Route>
-            <Route exact path="/pages/login">
-                <Login />
-            </Route>
-            <Route exact path="/pages/register">
-                <Register />
-            </Route>
+            <Route exact path="/" component={Landing} />
+            <Route exact path="/landing" component={Landing} />
+            <Route exact path="/profile" component={Profile} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/register" component={Register} />
             <Redirect from="*" to="/" />
         </Switch>
     );
