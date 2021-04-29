@@ -2,6 +2,7 @@ import React from 'react';
 import H3 from '@material-tailwind/react/Heading3';
 import Paragraph from '@material-tailwind/react/Paragraph';
 import Input from '@material-tailwind/react/Input';
+import Textarea from '@material-tailwind/react/Textarea';
 import Button from '@material-tailwind/react/Button';
 
 export default function Form() {
@@ -18,7 +19,7 @@ export default function Form() {
                             </Paragraph>
                         </div>
                         <form onSubmit={(e) => e.preventDefault()}>
-                            <div className="flex gap-8 mt-16 mb-10">
+                            <div className="flex gap-8 mt-16 mb-12">
                                 <Input
                                     type="text"
                                     placeholder="Full Name"
@@ -31,21 +32,8 @@ export default function Form() {
                                 />
                             </div>
 
-                            <div
-                                className="relative w-full"
-                                style={{ height: '150px' }}
-                            >
-                                <textarea
-                                    placeholder=" "
-                                    className="w-full h-full leading-normal shadow-none outline-none focus:outline-none focus:ring-0 px-0 md-input bg-transparent border-none md-input-light-blue-500"
-                                    style={{ resize: 'none' }}
-                                />
-                                <label className="text-gray-400 absolute left-0 -top-0.5 h-full w-full border border-t-0 border-l-0 border-r-0 border-b border-gray-300 pointer-events-none">
-                                    <span className="absolute top-0 transition-all duration-300">
-                                        Message
-                                    </span>
-                                </label>
-                            </div>
+                            <Textarea color="lightBlue" placeholder="Message" />
+
                             <div className="flex justify-center mt-10">
                                 <Button color="lightBlue" ripple="light">
                                     Send Message
