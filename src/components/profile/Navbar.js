@@ -76,16 +76,16 @@ export default function ProfileNavbar() {
                                         padding: '1rem 1.25rem',
                                     }}
                                 >
-                                    <Link to="/pages/landing">
+                                    <Link to="/landing">
                                         <DropdownItem>Landing</DropdownItem>
                                     </Link>
-                                    <Link to="/pages/profile">
+                                    <Link to="/profile">
                                         <DropdownItem>Profile</DropdownItem>
                                     </Link>
-                                    <Link to="/pages/login">
+                                    <Link to="/login">
                                         <DropdownItem>Login</DropdownItem>
                                     </Link>
-                                    <Link to="/pages/register">
+                                    <Link to="/register">
                                         <DropdownItem>Register</DropdownItem>
                                     </Link>
                                 </Dropdown>
