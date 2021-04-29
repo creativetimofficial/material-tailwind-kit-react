@@ -5,8 +5,8 @@ import Profile from './pages/Profile';
 import Login from './pages/Login';
 import Register from './pages/Register';
 
-// Material Icons Style Sheet
-import 'material-icons/css/material-icons.css';
+// Font Awesome Style Sheet
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 // Material Tailwind Style Sheet
 import '@material-tailwind/react/tailwind.css';
