@@ -28,86 +28,96 @@ export default function LoginNavbar() {
                             Material Tailwind
                         </a>
                     </NavbarBrand>
-                    <NavbarToggler onClick={() => setOpenNavbar(!openNavbar)} />
+                    <NavbarToggler
+                        onClick={() => setOpenNavbar(!openNavbar)}
+                        color="white"
+                    />
                 </NavbarWrapper>
 
                 <NavbarCollapse open={openNavbar}>
                     <Nav>
-                        <div className="flex flex-col z-50 lg:flex-row lg:items-center">
-                            <NavItem
-                                href="https://material-tailwind.com/documentation/quick-start?ref=mtk"
-                                target="_blank"
-                                rel="noreferrer"
-                                ripple="light"
-                            >
-                                <Icon name="description" size="2xl" />
-                                &nbsp;Docs
-                            </NavItem>
-                            <NavItem
-                                href="https://material-tailwind.com/components?ref=mtk"
-                                target="_blank"
-                                rel="noreferrer"
-                                ripple="light"
-                            >
-                                <Icon name="apps" size="2xl" />
-                                &nbsp;Components
-                            </NavItem>
-                            <Dropdown
-                                color="transparent"
-                                size="sm"
-                                buttonType="link"
-                                buttonText={
-                                    <>
-                                        <Icon
-                                            name="view_carousel"
-                                            size="2xl"
-                                            color="white"
-                                        />
-                                        &nbsp;Templates
-                                    </>
-                                }
-                                ripple="light"
-                                style={{
-                                    fontWeight: 500,
-                                    color: '#fff',
-                                    padding: '1rem 1.25rem',
-                                }}
-                            >
-                                <Link to="/pages/landing">
-                                    <DropdownItem>Landing</DropdownItem>
-                                </Link>
-                                <Link to="/pages/profile">
-                                    <DropdownItem>Profile</DropdownItem>
-                                </Link>
-                                <Link to="/pages/login">
-                                    <DropdownItem>Login</DropdownItem>
-                                </Link>
-                                <Link to="/pages/register">
-                                    <DropdownItem>Register</DropdownItem>
-                                </Link>
-                            </Dropdown>
-                            <NavItem
-                                href="https://github.com/creativetimofficial/material-tailwind?ref=mtk"
-                                target="_blank"
-                                rel="noreferrer"
-                                ripple="light"
-                            >
-                                <Icon
-                                    family="font-awesome"
-                                    name="fab fa-github"
-                                    size="xl"
-                                />
-                                &nbsp;Github
-                            </NavItem>
-                            <NavItem
-                                href="https://github.com/creativetimofficial/material-tailwind/issues?ref=mtk"
-                                target="_blank"
-                                rel="noreferrer"
-                                ripple="light"
-                            >
-                                Issues
-                            </NavItem>
-                        </div>
+                        <NavItem
+                            href="https://material-tailwind.com/documentation/quick-start?ref=mtk"
+                            target="_blank"
+                            rel="noreferrer"
+                            ripple="light"
+                        >
+                            <Icon name="description" size="2xl" />
+                            &nbsp;Docs
+                        </NavItem>
+                        <NavItem
+                            href="https://material-tailwind.com/components?ref=mtk"
+                            target="_blank"
+                            rel="noreferrer"
+                            ripple="light"
+                        >
+                            <Icon name="apps" size="2xl" />
+                            &nbsp;Components
+                        </NavItem>
+                        <Dropdown
+                            color="transparent"
+                            size="sm"
+                            buttonType="link"
+                            buttonText={
+                                <>
+                                    <Icon
+                                        name="view_carousel"
+                                        size="2xl"
+                                        color="white"
+                                    />
+                                    &nbsp;Templates
+                                </>
+                            }
+                            ripple="light"
+                            style={{
+                                fontWeight: 500,
+                                color: '#fff',
+                                padding: '1rem 1.25rem',
+                                justifyContent: 'flex-start',
+                            }}
+                        >
+                            <Link to="/landing">
+                                <DropdownItem color="lightBlue">
+                                    Landing
+                                </DropdownItem>
+                            </Link>
+                            <Link to="/profile">
+                                <DropdownItem color="lightBlue">
+                                    Profile
+                                </DropdownItem>
+                            </Link>
+                            <Link to="/login">
+                                <DropdownItem color="lightBlue">
+                                    Login
+                                </DropdownItem>
+                            </Link>
+                            <Link to="/register">
+                                <DropdownItem color="lightBlue">
+                                    Register
+                                </DropdownItem>
+                            </Link>
+                        </Dropdown>
+                        <NavItem
+                            href="https://github.com/creativetimofficial/material-tailwind?ref=mtk"
+                            target="_blank"
+                            rel="noreferrer"
+                            ripple="light"
+                        >
+                            <Icon
+                                family="font-awesome"
+                                name="fab fa-github"
+                                size="xl"
+                            />
+                            &nbsp;Github
+                        </NavItem>
+                        <NavItem
+                            href="https://github.com/creativetimofficial/material-tailwind/issues?ref=mtk"
+                            target="_blank"
+                            rel="noreferrer"
+                            ripple="light"
+                        >
+                            Issues
+                        </NavItem>
                     </Nav>
                 </NavbarCollapse>
             </NavbarContainer>
