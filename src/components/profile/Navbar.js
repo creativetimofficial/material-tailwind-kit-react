@@ -56,48 +56,47 @@ export default function ProfileNavbar() {
                                     <Icon name="apps" size="2xl" />
                                     &nbsp;Components
                                 </NavItem>
-                                <Dropdown
-                                    color="transparent"
-                                    size="sm"
-                                    buttonType="link"
-                                    buttonText={
-                                        <>
-                                            <Icon
-                                                name="view_carousel"
-                                                size="2xl"
-                                                color="white"
-                                            />
-                                            &nbsp;Templates
-                                        </>
-                                    }
-                                    ripple="light"
-                                    style={{
-                                        fontWeight: 500,
-                                        color: '#fff',
-                                        padding: '1rem 1.25rem',
-                                    }}
-                                >
-                                    <Link to="/landing">
-                                        <DropdownItem color="lightBlue">
-                                            Landing
-                                        </DropdownItem>
-                                    </Link>
-                                    <Link to="/profile">
-                                        <DropdownItem color="lightBlue">
-                                            Profile
-                                        </DropdownItem>
-                                    </Link>
-                                    <Link to="/login">
-                                        <DropdownItem color="lightBlue">
-                                            Login
-                                        </DropdownItem>
-                                    </Link>
-                                    <Link to="/register">
-                                        <DropdownItem color="lightBlue">
-                                            Register
-                                        </DropdownItem>
-                                    </Link>
-                                </Dropdown>
+                                <div className="text-white">
+                                    <Dropdown
+                                        color="transparent"
+                                        size="sm"
+                                        buttonType="link"
+                                        buttonText={
+                                            <div className="py-2.5 font-medium flex items-center">
+                                                <Icon
+                                                    name="view_carousel"
+                                                    size="2xl"
+                                                    color="white"
+                                                />
+                                                <span className="ml-2">
+                                                    Templates
+                                                </span>
+                                            </div>
+                                        }
+                                        ripple="light"
+                                    >
+                                        <Link to="/landing">
+                                            <DropdownItem color="lightBlue">
+                                                Landing
+                                            </DropdownItem>
+                                        </Link>
+                                        <Link to="/profile">
+                                            <DropdownItem color="lightBlue">
+                                                Profile
+                                            </DropdownItem>
+                                        </Link>
+                                        <Link to="/login">
+                                            <DropdownItem color="lightBlue">
+                                                Login
+                                            </DropdownItem>
+                                        </Link>
+                                        <Link to="/register">
+                                            <DropdownItem color="lightBlue">
+                                                Register
+                                            </DropdownItem>
+                                        </Link>
+                                    </Dropdown>
+                                </div>
                                 <NavItem
                                     href="https://github.com/creativetimofficial/material-tailwind?ref=mtk"
                                     target="_blank"
