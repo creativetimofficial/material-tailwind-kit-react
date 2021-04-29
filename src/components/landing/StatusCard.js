@@ -11,9 +11,9 @@ export default function StatusCard({ color, icon, title, children }) {
             <Card>
                 <CardBody>
                     <div
-                        className={`text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-md rounded-full bg-${color}-500`}
+                        className={`p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-md rounded-full bg-${color}-500`}
                     >
-                        <Icon name={icon} size="xl" />
+                        <Icon name={icon} size="xl" color="white" />
                     </div>
                     <H6 color="gray">{title}</H6>
                     <Paragraph color="blueGray">{children}</Paragraph>
