@@ -31,6 +31,7 @@ export default function ProfileNavbar() {
                         </NavbarBrand>
                         <NavbarToggler
                             onClick={() => setOpenNavbar(!openNavbar)}
+                            color="white"
                         />
                     </NavbarWrapper>
 
@@ -77,16 +78,24 @@ export default function ProfileNavbar() {
                                     }}
                                 >
                                     <Link to="/landing">
-                                        <DropdownItem>Landing</DropdownItem>
+                                        <DropdownItem color="lightBlue">
+                                            Landing
+                                        </DropdownItem>
                                     </Link>
                                     <Link to="/profile">
-                                        <DropdownItem>Profile</DropdownItem>
+                                        <DropdownItem color="lightBlue">
+                                            Profile
+                                        </DropdownItem>
                                     </Link>
                                     <Link to="/login">
-                                        <DropdownItem>Login</DropdownItem>
+                                        <DropdownItem color="lightBlue">
+                                            Login
+                                        </DropdownItem>
                                     </Link>
                                     <Link to="/register">
-                                        <DropdownItem>Register</DropdownItem>
+                                        <DropdownItem color="lightBlue">
+                                            Register
+                                        </DropdownItem>
                                     </Link>
                                 </Dropdown>
                                 <NavItem
