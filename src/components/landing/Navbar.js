@@ -31,6 +31,7 @@ export default function LandingNavbar() {
                         </NavbarBrand>
                         <NavbarToggler
                             onClick={() => setOpenNavbar(!openNavbar)}
+                            color="white"
                         />
                     </NavbarWrapper>
 
@@ -74,19 +75,28 @@ export default function LandingNavbar() {
                                         fontWeight: 500,
                                         color: '#fff',
                                         padding: '1rem 1.25rem',
+                                        justifyContent: 'flex-start',
                                     }}
                                 >
                                     <Link to="/landing">
-                                        <DropdownItem>Landing</DropdownItem>
+                                        <DropdownItem color="lightBlue">
+                                            Landing
+                                        </DropdownItem>
                                     </Link>
                                     <Link to="/profile">
-                                        <DropdownItem>Profile</DropdownItem>
+                                        <DropdownItem color="lightBlue">
+                                            Profile
+                                        </DropdownItem>
                                     </Link>
                                     <Link to="/login">
-                                        <DropdownItem>Login</DropdownItem>
+                                        <DropdownItem color="lightBlue">
+                                            Login
+                                        </DropdownItem>
                                     </Link>
                                     <Link to="/register">
-                                        <DropdownItem>Register</DropdownItem>
+                                        <DropdownItem color="lightBlue">
+                                            Register
+                                        </DropdownItem>
                                     </Link>
                                 </Dropdown>
                                 <NavItem
