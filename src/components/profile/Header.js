@@ -1,5 +1,4 @@
 import React from 'react';
-import BackgroundImage from '../../img/background-1920x1080.jpg';
 
 export default function Header() {
     return (
