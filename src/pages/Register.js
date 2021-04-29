@@ -17,12 +17,12 @@ export default function Register() {
             <Navbar />
             <Container>
                 <Card>
-                    <CardHeader color="lightBlue">
-                        <H5>Register</H5>
+                    <CardHeader color="lightBlue" size="lg">
+                        <H5 color="white">Register</H5>
                     </CardHeader>
 
                     <CardBody>
-                        <div className="mb-8 px-4">
+                        <div className="mb-10 px-4">
                             <InputIcon
                                 type="text"
                                 color="lightBlue"
@@ -30,7 +30,7 @@ export default function Register() {
                                 iconName="account_circle"
                             />
                         </div>
-                        <div className="mb-8 px-4">
+                        <div className="mb-10 px-4">
                             <InputIcon
                                 type="email"
                                 color="lightBlue"
@@ -38,7 +38,7 @@ export default function Register() {
                                 iconName="email"
                             />
                         </div>
-                        <div className="mb-8 px-4">
+                        <div className="mb-4 px-4">
                             <InputIcon
                                 type="password"
                                 color="lightBlue"
