@@ -11,13 +11,12 @@ export default function Footer() {
                     <div className="flex flex-wrap text-center lg:text-left pt-6">
                         <div className="w-full lg:w-6/12 px-4">
                             <H5 color="gray">Material Tailwind</H5>
-                            <LeadText
-                                color="blueGray"
-                                style={{ marginTop: '0' }}
-                            >
-                                Easy to use React components for Tailwind CSS
-                                and Material Design.
-                            </LeadText>
+                            <div className="-mt-4">
+                                <LeadText color="blueGray">
+                                    Easy to use React components for Tailwind
+                                    CSS and Material Design.
+                                </LeadText>
+                            </div>
                             <div className="flex gap-2 mt-6 md:justify-start md:mb-0 mb-8 justify-center">
                                 <a
                                     href="https://www.facebook.com/CreativeTim"
