@@ -8,9 +8,9 @@ import ProfilePicture from '../../img/team-2-800x800.jpg';
 
 export default function Content() {
     return (
-        <section className="relative py-16 bg-gray-50">
+        <section className="relative py-16 bg-gray-100">
             <div className="container max-w-7xl px-4 mx-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-2xl rounded-xl -mt-64">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-2xl -mt-64">
                     <div className="px-6">
                         <div className="flex flex-wrap justify-center">
                             <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">

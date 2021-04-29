@@ -5,7 +5,7 @@ import Form from '../landing/Form';
 
 export default function ContactSection() {
     return (
-        <section className="pb-20 relative block bg-gray-50">
+        <section className="pb-20 relative block bg-gray-100">
             <div className="container max-w-7xl mx-auto px-4 lg:pt-24">
                 <Title heading="Build something">
                     Put the potentially record low maximum sea ice extent tihs

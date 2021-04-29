@@ -14,7 +14,7 @@ export default function WorkingSection() {
         'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80';
 
     return (
-        <section className="pb-20 bg-gray-50 -mt-32">
+        <section className="pb-20 bg-gray-100 -mt-32">
             <div className="container max-w-7xl mx-auto px-4">
                 <div className="flex flex-wrap relative z-50">
                     <StatusCard color="red" icon="stars" title="Awarded Agency">
@@ -22,7 +22,7 @@ export default function WorkingSection() {
                         parts. A paragraph describing a feature will be enough.
                     </StatusCard>
                     <StatusCard
-                        color="light-blue"
+                        color="lightBlue"
                         icon="autorenew"
                         title="Free Revisions"
                     >
