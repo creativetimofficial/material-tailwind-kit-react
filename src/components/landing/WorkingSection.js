@@ -8,11 +8,9 @@ import H6 from '@material-tailwind/react/Heading6';
 import LeadText from '@material-tailwind/react/LeadText';
 import Paragraph from '@material-tailwind/react/Paragraph';
 import StatusCard from 'components/landing/StatusCard';
+import Teamwork from 'assets/img/teamwork.jpeg';
 
 export default function WorkingSection() {
-    const cardImageSrc =
-        'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80';
-
     return (
         <section className="pb-20 bg-gray-100 -mt-32">
             <div className="container max-w-7xl mx-auto px-4">
@@ -67,7 +65,7 @@ export default function WorkingSection() {
 
                     <div className="w-full md:w-4/12 px-4 mx-auto flex justify-center mt-24 lg:mt-0">
                         <Card>
-                            <CardImage alt="Card Image" src={cardImageSrc} />
+                            <CardImage alt="Card Image" src={Teamwork} />
                             <CardBody>
                                 <H6 color="gray">Top Notch Services</H6>
                                 <Paragraph color="blueGray">
