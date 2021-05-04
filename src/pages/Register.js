@@ -6,15 +6,15 @@ import CardFooter from '@material-tailwind/react/CardFooter';
 import H5 from '@material-tailwind/react/Heading5';
 import InputIcon from '@material-tailwind/react/InputIcon';
 import Button from '@material-tailwind/react/Button';
+import DefaultNavbar from 'components/DefaultNavbar';
+import SimpleFooter from 'components/SimpleFooter';
 import Page from 'components/login/Page';
-import Navbar from 'components/login/Navbar';
 import Container from 'components/login/Container';
-import Footer from 'components/login/Footer';
 
 export default function Register() {
     return (
         <Page>
-            <Navbar />
+            <DefaultNavbar />
             <Container>
                 <Card>
                     <CardHeader color="lightBlue" size="lg">
@@ -61,7 +61,7 @@ export default function Register() {
                     </CardFooter>
                 </Card>
             </Container>
-            <Footer />
+            <SimpleFooter />
         </Page>
     );
 }

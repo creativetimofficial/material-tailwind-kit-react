@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Footer() {
+export default function SimpleFooter() {
     return (
         <>
             <footer className="pt-8 pb-6">
