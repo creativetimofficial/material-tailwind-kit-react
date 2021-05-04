@@ -1,5 +1,4 @@
 import React from 'react';
-import StatusCard from '../landing/StatusCard';
 import Card from '@material-tailwind/react/Card';
 import CardImage from '@material-tailwind/react/CardImage';
 import CardBody from '@material-tailwind/react/CardBody';
@@ -8,6 +7,7 @@ import H4 from '@material-tailwind/react/Heading4';
 import H6 from '@material-tailwind/react/Heading6';
 import LeadText from '@material-tailwind/react/LeadText';
 import Paragraph from '@material-tailwind/react/Paragraph';
+import StatusCard from 'components/landing/StatusCard';
 
 export default function WorkingSection() {
     const cardImageSrc =
