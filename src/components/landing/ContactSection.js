@@ -1,7 +1,6 @@
-import React from 'react';
-import Title from 'components/landing/Title';
-import ContactCard from 'components/landing/ContactCard';
-import Form from 'components/landing/Form';
+import Title from 'components/Landing/Title';
+import ContactCard from 'components/Landing/ContactCard';
+import Form from 'components/Landing/Form';
 
 export default function ContactSection() {
     return (

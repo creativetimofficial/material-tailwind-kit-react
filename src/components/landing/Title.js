@@ -1,4 +1,3 @@
-import React from 'react';
 import H3 from '@material-tailwind/react/Heading3';
 import LeadText from '@material-tailwind/react/LeadText';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import Icon from '@material-tailwind/react/Icon';
 import H6 from '@material-tailwind/react/Heading6';
 import Paragraph from '@material-tailwind/react/Paragraph';

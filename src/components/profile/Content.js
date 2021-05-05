@@ -1,4 +1,3 @@
-import React from 'react';
 import Button from '@material-tailwind/react/Button';
 import Image from '@material-tailwind/react/Image';
 import H3 from '@material-tailwind/react/Heading3';

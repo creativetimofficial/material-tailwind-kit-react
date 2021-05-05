@@ -1,4 +1,3 @@
-import React from 'react';
 import H3 from '@material-tailwind/react/Heading3';
 import Paragraph from '@material-tailwind/react/Paragraph';
 import Input from '@material-tailwind/react/Input';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Header() {
     return (
         <section className="relative block h-125">
