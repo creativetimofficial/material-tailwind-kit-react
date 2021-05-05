@@ -13,7 +13,7 @@ export default function ContactSection() {
                     Atmospheric Administration, Ted, Scambos.
                 </Title>
 
-                <div className="flex flex-wrap mt-12 justify-center">
+                <div className="flex flex-wrap -mt-12 justify-center">
                     <ContactCard icon="stars" title="Excelent Services">
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
