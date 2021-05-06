@@ -17,8 +17,9 @@
   "scripts": {
     "build:tailwind": "postcss ./src/assets/styles/index.css -o ./src/assets/styles/tailwind.css",
     "watch:tailwind": "postcss ./src/assets/styles/index.css -o ./src/assets/styles/tailwind.css -w",
-    "start": "npm run build:tailwind && watch:tailwind & react-scripts start",
-    "build": "react-scripts build",
+    "start:react": "react-scripts start",
+    "start": "npm-run-all -p watch:tailwind start:react",
+    "build": "npm run build:tailwind && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "npm:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
