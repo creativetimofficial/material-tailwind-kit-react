@@ -6,7 +6,7 @@ import H4 from '@material-tailwind/react/Heading4';
 import H6 from '@material-tailwind/react/Heading6';
 import LeadText from '@material-tailwind/react/LeadText';
 import Paragraph from '@material-tailwind/react/Paragraph';
-import StatusCard from 'components/Landing/StatusCard';
+import StatusCard from 'components/landing/StatusCard';
 import Teamwork from 'assets/img/teamwork.jpeg';
 
 export default function WorkingSection() {

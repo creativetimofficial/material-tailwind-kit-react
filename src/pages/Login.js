@@ -8,8 +8,8 @@ import Checkbox from '@material-tailwind/react/Checkbox';
 import Button from '@material-tailwind/react/Button';
 import DefaultNavbar from 'components/DefaultNavbar';
 import SimpleFooter from 'components/SimpleFooter';
-import Page from 'components/Login/Page';
-import Container from 'components/Login/Container';
+import Page from 'components/login/Page';
+import Container from 'components/login/Container';
 
 export default function Login() {
     return (
