@@ -7,7 +7,7 @@ import NavbarBrand from '@material-tailwind/react/NavbarBrand';
 import NavbarToggler from '@material-tailwind/react/NavbarToggler';
 import NavbarCollapse from '@material-tailwind/react/NavbarCollapse';
 import Nav from '@material-tailwind/react/Nav';
-import NavItem from '@material-tailwind/react/NavItem';
+import NavLink from '@material-tailwind/react/NavLink';
 import Dropdown from '@material-tailwind/react/Dropdown';
 import DropdownItem from '@material-tailwind/react/DropdownItem';
 import Icon from '@material-tailwind/react/Icon';
@@ -19,15 +19,13 @@ export default function DefaultNavbar() {
         <Navbar color="transparent" navbar>
             <NavbarContainer>
                 <NavbarWrapper>
-                    <NavbarBrand>
-                        <a
-                            href="https://material-tailwind.com?ref=mtk"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Material Tailwind
-                        </a>
-                    </NavbarBrand>
+                    <a
+                        href="https://material-tailwind.com?ref=mtk"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <NavbarBrand>Material Tailwind</NavbarBrand>
+                    </a>
                     <NavbarToggler
                         onClick={() => setOpenNavbar(!openNavbar)}
                         color="white"
@@ -37,7 +35,7 @@ export default function DefaultNavbar() {
                 <NavbarCollapse open={openNavbar}>
                     <Nav>
                         <div className="flex flex-col z-50 lg:flex-row lg:items-center">
-                            <NavItem
+                            <NavLink
                                 href="https://material-tailwind.com/documentation/quick-start?ref=mtk"
                                 target="_blank"
                                 rel="noreferrer"
@@ -45,8 +43,8 @@ export default function DefaultNavbar() {
                             >
                                 <Icon name="description" size="2xl" />
                                 &nbsp;Docs
-                            </NavItem>
-                            <NavItem
+                            </NavLink>
+                            <NavLink
                                 href="https://material-tailwind.com/components?ref=mtk"
                                 target="_blank"
                                 rel="noreferrer"
@@ -54,7 +52,7 @@ export default function DefaultNavbar() {
                             >
                                 <Icon name="apps" size="2xl" />
                                 &nbsp;Components
-                            </NavItem>
+                            </NavLink>
                             <div className="text-white">
                                 <Dropdown
                                     color="transparent"
@@ -96,7 +94,7 @@ export default function DefaultNavbar() {
                                     </Link>
                                 </Dropdown>
                             </div>
-                            <NavItem
+                            <NavLink
                                 href="https://github.com/creativetimofficial/material-tailwind?ref=mtk"
                                 target="_blank"
                                 rel="noreferrer"
@@ -108,15 +106,15 @@ export default function DefaultNavbar() {
                                     size="xl"
                                 />
                                 &nbsp;Github
-                            </NavItem>
-                            <NavItem
+                            </NavLink>
+                            <NavLink
                                 href="https://github.com/creativetimofficial/material-tailwind/issues?ref=mtk"
                                 target="_blank"
                                 rel="noreferrer"
                                 ripple="light"
                             >
                                 Issues
-                            </NavItem>
+                            </NavLink>
                         </div>
                     </Nav>
                 </NavbarCollapse>
