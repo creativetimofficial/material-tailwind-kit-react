@@ -1601,17 +1601,17 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@material-tailwind/react@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@material-tailwind/react/-/react-0.3.1.tgz#4cd3da3f6162b7375655ac427189f9805bdb4459"
-  integrity sha512-agvMPQo05lrs6oPdF1Plrw07ufzW3yfKTItvVafNKRBx72Dbaypr8nV2bbNw6LZg0cW7u1KVZTQM2lygjAUBxw==
+"@material-tailwind/react@0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@material-tailwind/react/-/react-0.3.2.tgz#d499ccf6925cbf5ad1e16bda9627ae395c65808c"
+  integrity sha512-kzIjqOgqWnJK7R0683mUjcz6KuVv/zQdljH//oj9/VMbIkWvEK23uOzp+ZHdVLo01oAVz+HXcr2Cl1qlbPqrKg==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.13.0"
     "@babel/runtime" "^7.13.10"
     "@tippyjs/react" "^4.2.5"
     material-icons "^0.6.0"
     material-ripple-effects "^2.0.1"
-    next "^10.1.3"
+    next "^10.2.0"
     next-images "^1.7.0"
     npm "^7.8.0"
     path "^0.12.7"
@@ -8803,7 +8803,7 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-next@^10.1.3:
+next@^10.2.0:
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/next/-/next-10.2.0.tgz#6654cc925d8abcb15474fa062fc6b3ee527dd6dc"
   integrity sha512-PKDKCSF7s82xudu3kQhOEaokxggpbLEWouEUtzP6OqV0YqKYHF+Ff+BFLycEem8ixtTM2M6ElN0VRJcskJfxPQ==
