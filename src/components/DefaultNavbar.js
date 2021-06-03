@@ -14,23 +14,25 @@ import Icon from '@material-tailwind/react/Icon';
 
 export default function DefaultNavbar() {
     const [openNavbar, setOpenNavbar] = useState(false);
-
     return (
         <Navbar color="transparent" navbar>
             <NavbarContainer>
-                <NavbarWrapper>
-                    <a
-                        href="https://material-tailwind.com?ref=mtk"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <NavbarBrand>Material Tailwind</NavbarBrand>
-                    </a>
-                    <NavbarToggler
-                        onClick={() => setOpenNavbar(!openNavbar)}
-                        color="white"
-                    />
-                </NavbarWrapper>
+                <div className="w-full lg:w-auto">
+                    <NavbarWrapper>
+                        <a
+                            href="https://material-tailwind.com?ref=mtk"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <NavbarBrand>Material Tailwind</NavbarBrand>
+                        </a>
+                        <NavbarToggler
+                            onClick={() => setOpenNavbar(!openNavbar)}
+                            color="white"
+                        />
+                        <div className="absolute w-0 lg:hidden" />
+                    </NavbarWrapper>
+                </div>
 
                 <NavbarCollapse open={openNavbar}>
                     <Nav>

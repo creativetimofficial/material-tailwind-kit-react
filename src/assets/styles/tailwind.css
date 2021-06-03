@@ -89,7 +89,8 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 */
 
 abbr[title] {
-	text-decoration: underline dotted;
+	-webkit-text-decoration: underline dotted;
+	        text-decoration: underline dotted;
 }
 
 /**
@@ -436,6 +437,16 @@ textarea {
   resize: vertical;
 }
 
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
 input::placeholder,
 textarea::placeholder {
   opacity: 1;
@@ -690,9 +701,11 @@ video {
 	display: inline-block;
 }
 .flex {
+	display: -webkit-flex;
 	display: flex;
 }
 .inline-flex {
+	display: -webkit-inline-flex;
 	display: inline-flex;
 }
 .grid {
@@ -722,6 +735,9 @@ video {
 .w-10 {
 	width: 2.5rem;
 }
+.w-0 {
+	width: 0px;
+}
 .w-12 {
 	width: 3rem;
 }
@@ -747,7 +763,8 @@ video {
 	max-width: 24rem;
 }
 .flex-auto {
-	flex: 1 1 auto;
+	-webkit-flex: 1 1 auto;
+	        flex: 1 1 auto;
 }
 .transform {
 	--tw-translate-x: 0;
@@ -757,7 +774,8 @@ video {
 	--tw-skew-y: 0;
 	--tw-scale-x: 1;
 	--tw-scale-y: 1;
-	transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+	-webkit-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+	        transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .-translate-x-1\/2 {
 	--tw-translate-x: -50%;
@@ -766,25 +784,31 @@ video {
 	--tw-translate-y: -50%;
 }
 .flex-col {
-	flex-direction: column;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
 }
 .flex-wrap {
-	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
 }
 .place-items-center {
 	place-items: center;
 }
 .content-center {
-	align-content: center;
+	-webkit-align-content: center;
+	        align-content: center;
 }
 .items-center {
-	align-items: center;
+	-webkit-align-items: center;
+	        align-items: center;
 }
 .justify-center {
-	justify-content: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
 }
 .justify-between {
-	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
 }
 .gap-2 {
 	gap: 0.5rem;
@@ -1047,25 +1071,30 @@ video {
 	}
 
 	.md\:justify-start {
-		justify-content: flex-start;
+		-webkit-justify-content: flex-start;
+		        justify-content: flex-start;
 	}
 
 	.md\:justify-between {
-		justify-content: space-between;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
 	}
 }
 @media (min-width: 1024px) {
 
 	.lg\:order-2 {
-		order: 2;
+		-webkit-order: 2;
+		        order: 2;
 	}
 
 	.lg\:order-3 {
-		order: 3;
+		-webkit-order: 3;
+		        order: 3;
 	}
 
 	.lg\:order-1 {
-		order: 1;
+		-webkit-order: 1;
+		        order: 1;
 	}
 
 	.lg\:mb-0 {
@@ -1080,12 +1109,20 @@ video {
 		margin-right: 1rem;
 	}
 
+	.lg\:hidden {
+		display: none;
+	}
+
 	.lg\:w-6\/12 {
 		width: 50%;
 	}
 
 	.lg\:w-4\/12 {
 		width: 33.333333%;
+	}
+
+	.lg\:w-auto {
+		width: auto;
 	}
 
 	.lg\:w-3\/12 {
@@ -1101,19 +1138,23 @@ video {
 	}
 
 	.lg\:flex-row {
-		flex-direction: row;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
 	}
 
 	.lg\:items-center {
-		align-items: center;
+		-webkit-align-items: center;
+		        align-items: center;
 	}
 
 	.lg\:justify-end {
-		justify-content: flex-end;
+		-webkit-justify-content: flex-end;
+		        justify-content: flex-end;
 	}
 
 	.lg\:self-center {
-		align-self: center;
+		-webkit-align-self: center;
+		        align-self: center;
 	}
 
 	.lg\:p-10 {
