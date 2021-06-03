@@ -4,11 +4,11 @@ import Profile from 'pages/Profile';
 import Login from 'pages/Login';
 import Register from 'pages/Register';
 
-// Tailwind CSS Style Sheet
-import 'assets/styles/tailwind.css';
-
 // Font Awesome Style Sheet
 import '@fortawesome/fontawesome-free/css/all.min.css';
+
+// Tailwind CSS Style Sheet
+import 'assets/styles/tailwind.css';
 
 function App() {
     return (
