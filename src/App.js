@@ -10,9 +10,6 @@ import 'assets/styles/tailwind.css';
 // Font Awesome Style Sheet
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-// Material Tailwind Style Sheet
-import '@material-tailwind/react/tailwind.css';
-
 function App() {
     return (
         <Switch>
