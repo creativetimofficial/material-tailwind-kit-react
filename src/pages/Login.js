@@ -17,8 +17,10 @@ export default function Login() {
             <DefaultNavbar />
             <Container>
                 <Card>
-                    <CardHeader color="lightBlue" size="lg">
-                        <H5 color="white">Login</H5>
+                    <CardHeader color="lightBlue">
+                        <H5 color="white" style={{ marginBottom: 0 }}>
+                            Login
+                        </H5>
                     </CardHeader>
 
                     <CardBody>
