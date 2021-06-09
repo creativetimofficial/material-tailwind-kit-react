@@ -16,8 +16,10 @@ export default function Register() {
             <DefaultNavbar />
             <Container>
                 <Card>
-                    <CardHeader color="lightBlue" size="lg">
-                        <H5 color="white">Register</H5>
+                    <CardHeader color="lightBlue">
+                        <H5 color="white" style={{ marginBottom: 0 }}>
+                            Register
+                        </H5>
                     </CardHeader>
 
                     <CardBody>

@@ -1,5 +1,17 @@
 # Change Log
 
+## [1.1.0] 2021-06-10
+
+### New Features
+
+-   Add the download button
+-   Update dependencies and dev-dependencies
+
+### Bug Fixing
+
+-   Change the card header size to regular for login and register cards
+-   Remove the margin from the card header title and align it to the middle
+
 ## [1.0.0] 2021-06-04
 
 ### Original Release
