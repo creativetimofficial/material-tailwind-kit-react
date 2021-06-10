@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/material-tailwind-kit-react/static/css/main.d8eef2dc.chunk.css",
-    "main.js": "/material-tailwind-kit-react/static/js/main.9501db31.chunk.js",
-    "main.js.map": "/material-tailwind-kit-react/static/js/main.9501db31.chunk.js.map",
+    "main.js": "/material-tailwind-kit-react/static/js/main.dd1d9389.chunk.js",
+    "main.js.map": "/material-tailwind-kit-react/static/js/main.dd1d9389.chunk.js.map",
     "runtime-main.js": "/material-tailwind-kit-react/static/js/runtime-main.07da1330.js",
     "runtime-main.js.map": "/material-tailwind-kit-react/static/js/runtime-main.07da1330.js.map",
     "static/css/2.581c4118.chunk.css": "/material-tailwind-kit-react/static/css/2.581c4118.chunk.css",
@@ -27,6 +27,6 @@
     "static/css/2.581c4118.chunk.css",
     "static/js/2.91ba34d5.chunk.js",
     "static/css/main.d8eef2dc.chunk.css",
-    "static/js/main.9501db31.chunk.js"
+    "static/js/main.dd1d9389.chunk.js"
   ]
 }
