@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/material-tailwind-kit-react/static/css/main.d8eef2dc.chunk.css",
-    "main.js": "/material-tailwind-kit-react/static/js/main.2bca7360.chunk.js",
-    "main.js.map": "/material-tailwind-kit-react/static/js/main.2bca7360.chunk.js.map",
+    "main.js": "/material-tailwind-kit-react/static/js/main.9501db31.chunk.js",
+    "main.js.map": "/material-tailwind-kit-react/static/js/main.9501db31.chunk.js.map",
     "runtime-main.js": "/material-tailwind-kit-react/static/js/runtime-main.07da1330.js",
     "runtime-main.js.map": "/material-tailwind-kit-react/static/js/runtime-main.07da1330.js.map",
     "static/css/2.581c4118.chunk.css": "/material-tailwind-kit-react/static/css/2.581c4118.chunk.css",
-    "static/js/2.e5705ccc.chunk.js": "/material-tailwind-kit-react/static/js/2.e5705ccc.chunk.js",
-    "static/js/2.e5705ccc.chunk.js.map": "/material-tailwind-kit-react/static/js/2.e5705ccc.chunk.js.map",
+    "static/js/2.91ba34d5.chunk.js": "/material-tailwind-kit-react/static/js/2.91ba34d5.chunk.js",
+    "static/js/2.91ba34d5.chunk.js.map": "/material-tailwind-kit-react/static/js/2.91ba34d5.chunk.js.map",
     "static/js/3.a8081350.chunk.js": "/material-tailwind-kit-react/static/js/3.a8081350.chunk.js",
     "static/js/3.a8081350.chunk.js.map": "/material-tailwind-kit-react/static/js/3.a8081350.chunk.js.map",
     "index.html": "/material-tailwind-kit-react/index.html",
     "static/css/2.581c4118.chunk.css.map": "/material-tailwind-kit-react/static/css/2.581c4118.chunk.css.map",
     "static/css/main.d8eef2dc.chunk.css.map": "/material-tailwind-kit-react/static/css/main.d8eef2dc.chunk.css.map",
-    "static/js/2.e5705ccc.chunk.js.LICENSE.txt": "/material-tailwind-kit-react/static/js/2.e5705ccc.chunk.js.LICENSE.txt",
+    "static/js/2.91ba34d5.chunk.js.LICENSE.txt": "/material-tailwind-kit-react/static/js/2.91ba34d5.chunk.js.LICENSE.txt",
     "static/media/tailwind.css": "/material-tailwind-kit-react/static/media/background-1920x1280.20a2d875.jpg",
     "static/media/all.min.css": "/material-tailwind-kit-react/static/media/fa-solid-900.efbd5d20.eot",
     "static/media/team-1-800x800.fa5a7ac2.jpg": "/material-tailwind-kit-react/static/media/team-1-800x800.fa5a7ac2.jpg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.07da1330.js",
     "static/css/2.581c4118.chunk.css",
-    "static/js/2.e5705ccc.chunk.js",
+    "static/js/2.91ba34d5.chunk.js",
     "static/css/main.d8eef2dc.chunk.css",
-    "static/js/main.2bca7360.chunk.js"
+    "static/js/main.9501db31.chunk.js"
   ]
 }
