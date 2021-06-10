@@ -25,7 +25,7 @@
     "eject": "react-scripts eject",
     "npm:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "yarn:clean": "rm -rf node_modules/ && rm -rf package-lock.json && yarn install && yarn start",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
