@@ -12,9 +12,9 @@ export default function Header() {
                         <div className="text-gray-200">
                             <LeadText color="gray-200">
                                 This is a simple example of a Landing Page you
-                                can build using Notus NextJS. It features
-                                multiple CSS components based on the Tailwind
-                                CSS design system.
+                                can build using Material Tailwind. It features
+                                multiple components based on the Tailwind CSS
+                                and Material Design by Google.
                             </LeadText>
                         </div>
                     </div>
