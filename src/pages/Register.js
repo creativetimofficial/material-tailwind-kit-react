@@ -63,6 +63,18 @@ export default function Register() {
                 </Card>
             </Container>
             <SimpleFooter />
+            <a
+                href="https://www.producthunt.com/posts/material-tailwind-kit-react?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-material-tailwind-kit-react"
+                target="_blank"
+                rel="noreferrer"
+                className="fixed bottom-40 left-1/2 transform -translate-x-1/2 z-50"
+            >
+                <img
+                    src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=299547&theme=light"
+                    alt="Material Tailwind Kit React - Free Tailwind CSS & React UI Kit | Product Hunt"
+                    className="w-[250px] h-[54px]"
+                />
+            </a>
         </Page>
     );
 }
