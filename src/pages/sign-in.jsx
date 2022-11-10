@@ -15,7 +15,7 @@ export function SignIn() {
   return (
     <>
       <img
-        src="/img/background-2.jpg"
+        src="/material-tailwind-dashboard-react/img/background-2.jpg"
         className="absolute inset-0 z-0 h-full w-full object-cover"
       />
       <div className="absolute inset-0 z-0 h-full w-full bg-black/50" />
