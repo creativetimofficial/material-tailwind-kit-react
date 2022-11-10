@@ -1,6 +1,6 @@
 export const teamData = [
   {
-    img: "/material-tailwind-dashboard-react/img/team-1.jpg",
+    img: "/material-tailwind-kit-react/img/team-1.jpg",
     name: "Ryan Tompson",
     position: "Web Developer",
     socials: [
@@ -19,7 +19,7 @@ export const teamData = [
     ],
   },
   {
-    img: "/material-tailwind-dashboard-react/img/team-2.jpg",
+    img: "/material-tailwind-kit-react/img/team-2.jpg",
     name: "Romina Hadid",
     position: "Marketing Specialist",
     socials: [
@@ -38,7 +38,7 @@ export const teamData = [
     ],
   },
   {
-    img: "/material-tailwind-dashboard-react/img/team-3.jpg",
+    img: "/material-tailwind-kit-react/img/team-3.jpg",
     name: "Alexa Smith",
     position: "UI/UX Designer",
     socials: [
@@ -57,7 +57,7 @@ export const teamData = [
     ],
   },
   {
-    img: "/material-tailwind-dashboard-react/img/team-4.png",
+    img: "/material-tailwind-kit-react/img/team-4.png",
     name: "Jenna Kardi",
     position: "Founder and CEO",
     socials: [

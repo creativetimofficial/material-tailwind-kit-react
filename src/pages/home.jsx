@@ -83,7 +83,7 @@ export function Home() {
                 <CardHeader className="relative h-56">
                   <img
                     alt="Card Image"
-                    src="/material-tailwind-dashboard-react/img/teamwork.jpeg"
+                    src="/material-tailwind-kit-react/img/teamwork.jpeg"
                     className="h-full w-full"
                   />
                 </CardHeader>
