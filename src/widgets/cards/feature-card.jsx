@@ -14,7 +14,7 @@ export function FeatureCard({ color, icon, title, description }) {
           variant="gradient"
           size="lg"
           color={color}
-          className="rounded-full pointer-events-none mb-6"
+          className="pointer-events-none mb-6 rounded-full"
         >
           {icon}
         </IconButton>

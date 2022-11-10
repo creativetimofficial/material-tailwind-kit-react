@@ -5,17 +5,17 @@ const year = new Date().getFullYear();
 
 export function Footer({ title, description, socials, menus, copyright }) {
   return (
-    <footer className="relative pt-8 pb-6 px-4">
+    <footer className="relative px-4 pt-8 pb-6">
       <div className="container mx-auto">
-        <div className="flex flex-wrap text-center lg:text-left pt-6">
-          <div className="w-full lg:w-6/12 px-4">
+        <div className="flex flex-wrap pt-6 text-center lg:text-left">
+          <div className="w-full px-4 lg:w-6/12">
             <Typography variant="h4" className="mb-4" color="blue-gray">
               {title}
             </Typography>
-            <Typography className="text-blue-gray-500 font-normal">
+            <Typography className="font-normal text-blue-gray-500">
               {description}
             </Typography>
-            <div className="flex gap-2 mt-6 lg:justify-start md:mb-0 mb-8 justify-center mx-auto">
+            <div className="mx-auto mt-6 mb-8 flex justify-center gap-2 md:mb-0 lg:justify-start">
               {socials.map(({ color, name, path }) => (
                 <a
                   key={name}
@@ -32,13 +32,13 @@ export function Footer({ title, description, socials, menus, copyright }) {
               ))}
             </div>
           </div>
-          <div className="w-max mx-auto grid grid-cols-2 gap-24 mt-12 lg:mt-0">
+          <div className="mx-auto mt-12 grid w-max grid-cols-2 gap-24 lg:mt-0">
             {menus.map(({ name, items }) => (
               <div key={name}>
                 <Typography
                   variant="small"
                   color="blue-gray"
-                  className="block uppercase font-medium mb-2"
+                  className="mb-2 block font-medium uppercase"
                 >
                   {name}
                 </Typography>
@@ -51,7 +51,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
                         target="_blank"
                         rel="noreferrer"
                         variant="small"
-                        className="text-blue-gray-500 hover:text-blue-gray-700 block mb-2 font-normal"
+                        className="mb-2 block font-normal text-blue-gray-500 hover:text-blue-gray-700"
                       >
                         {item.name}
                       </Typography>
@@ -63,8 +63,8 @@ export function Footer({ title, description, socials, menus, copyright }) {
           </div>
         </div>
         <hr className="my-6 border-gray-300" />
-        <div className="flex flex-wrap items-center md:justify-between justify-center">
-          <div className="w-full px-4 mx-auto text-center">
+        <div className="flex flex-wrap items-center justify-center md:justify-between">
+          <div className="mx-auto w-full px-4 text-center">
             <Typography
               variant="small"
               className="font-normal text-blue-gray-500"

@@ -3,7 +3,7 @@ import { Typography } from "@material-tailwind/react";
 
 export function PageTitle({ heading, children }) {
   return (
-    <div className="w-full lg:w-6/12 px-4 text-center mx-auto">
+    <div className="mx-auto w-full px-4 text-center lg:w-6/12">
       <Typography variant="h2" color="blue-gray" className="mb-3">
         {heading}
       </Typography>

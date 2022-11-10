@@ -21,7 +21,7 @@ export function Navbar({ brandName, routes, action }) {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 text-inherit">
+    <ul className="mb-4 mt-2 flex flex-col gap-2 text-inherit lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       {routes.map(({ name, path, icon, href, target }) => (
         <Typography
           key={name}
@@ -69,7 +69,7 @@ export function Navbar({ brandName, routes, action }) {
           </Typography>
         </Link>
         <div className="hidden lg:block">{navList}</div>
-        <div className="gap-2 hidden lg:flex">
+        <div className="hidden gap-2 lg:flex">
           <a
             href="https://www.material-tailwind.com/blocks/react?ref=mtkr"
             target="_blank"
@@ -97,7 +97,7 @@ export function Navbar({ brandName, routes, action }) {
         </IconButton>
       </div>
       <MobileNav
-        className="bg-white rounded-xl text-blue-gray-900 pt-2 px-4 pb-4"
+        className="rounded-xl bg-white px-4 pt-2 pb-4 text-blue-gray-900"
         open={openNav}
       >
         <div className="container mx-auto">
