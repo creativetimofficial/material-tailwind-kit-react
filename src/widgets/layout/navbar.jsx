@@ -3,9 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import {
   Navbar as MTNavbar,
-  MobileNav,
   Typography,
-  Button,
   IconButton,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
@@ -21,7 +19,7 @@ export function Navbar({ brandName, routes, action }) {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 text-inherit lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mb-3 mt-1 flex flex-col gap-2 text-inherit lg:mb-1 lg:mt-0 lg:flex-row lg:items-center lg:gap-7">
       {routes.map(({ name, path, icon, href, target }) => (
         <Typography
           key={name}
@@ -62,26 +60,13 @@ export function Navbar({ brandName, routes, action }) {
 
   return (
     <MTNavbar color="transparent" className="p-3">
-      <div className="container mx-auto flex items-center justify-between text-white">
+      <div className="container mx-auto flex items-end justify-between text-white">
         <Link to="/">
-          <Typography className="mr-4 ml-2 cursor-pointer py-1.5 font-bold">
+          <Typography className="mr-2 ml-2 cursor-pointer py-1.5 font-bold text-xl">
             {brandName}
           </Typography>
         </Link>
         <div className="hidden lg:block">{navList}</div>
-        <div className="hidden gap-2 lg:flex">
-          <a
-            href="https://www.material-tailwind.com/blocks?ref=mtkr"
-            target="_blank"
-          >
-            <Button variant="text" size="sm" color="white" fullWidth>
-              pro version
-            </Button>
-          </a>
-          {React.cloneElement(action, {
-            className: "hidden lg:inline-block",
-          })}
-        </div>
         <IconButton
           variant="text"
           size="sm"
@@ -96,40 +81,14 @@ export function Navbar({ brandName, routes, action }) {
           )}
         </IconButton>
       </div>
-      <MobileNav
-        className="rounded-xl bg-white px-4 pt-2 pb-4 text-blue-gray-900"
-        open={openNav}
-      >
-        <div className="container mx-auto">
-          {navList}
-          <a
-            href="https://www.material-tailwind.com/blocks/react?ref=mtkr"
-            target="_blank"
-            className="mb-2 block"
-          >
-            <Button variant="text" size="sm" fullWidth>
-              pro version
-            </Button>
-          </a>
-          {React.cloneElement(action, {
-            className: "w-full block",
-          })}
-        </div>
-      </MobileNav>
     </MTNavbar>
   );
 }
 
 Navbar.defaultProps = {
-  brandName: "Material Tailwind React",
+  brandName: "Sunrise Used Auto",
   action: (
-    <a
-      href="https://www.creative-tim.com/product/material-tailwind-kit-react"
-      target="_blank"
-    >
-      <Button variant="gradient" size="sm" fullWidth>
-        free download
-      </Button>
+    <a>
     </a>
   ),
 };

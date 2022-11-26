@@ -6,7 +6,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
 
-export function Profile() {
+export function Pyvth() {
   return (
     <>
       <section className="relative block h-[50vh]">
@@ -132,4 +132,4 @@ export function Profile() {
   );
 }
 
-export default Profile;
+export default Pyvth;

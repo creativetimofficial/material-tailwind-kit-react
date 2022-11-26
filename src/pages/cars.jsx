@@ -13,26 +13,20 @@ import { PageTitle, Footer } from "@/widgets/layout";
 import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
 
-export function Home() {
+export function Cars() {
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-[url('img\\Img.jpg')] bg-cover bg-center" />
+        <div className="absolute top-0 h-full w-full bg-[url('\img\\car-lot-but-better.jpg')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/50 bg-cover bg-center" />
-        <div className="max-w-8xl container relative mx-auto">
+        <div className="grid grid-rows-6 mb-40 container relative mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
               <Typography
                 variant="h1"
                 color="white"
-                className="mb-6 font-black"
               >
-                Get Your Next Car With Us!
-              </Typography>
-              <Typography variant="lead" color="white" className="opacity-80">
-                We believe, unlike some car brands, that cars are not just a privilege or a commodity,
-                They are a necessity to live your life. And we have dedicated our time and created our
-                buisness model to giving you the best quality of cars for the lowest possible price.
+                Car Inventory
               </Typography>
             </div>
           </div>
@@ -40,8 +34,8 @@ export function Home() {
       </div>
       <section className="-mt-32 bg-blue-100 px-4 pb-20 pt-4">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
-            {featuresData.map(({ color, title, icon, description }) => (
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            {carsData.map(({ color, title, icon, description }) => (
               <FeatureCard
                 key={title}
                 color={color}
@@ -168,4 +162,4 @@ export function Home() {
   );
 }
 
-export default Home;
+export default Cars;

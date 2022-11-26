@@ -1,30 +1,22 @@
 import {
   StarIcon,
-  ArrowPathIcon,
-  FingerPrintIcon,
+  TrophyIcon
 } from "@heroicons/react/24/solid";
 
 export const featuresData = [
   {
-    color: "blue",
+    color: "Blue",
     title: "Awarded Agency",
-    icon: StarIcon,
+    icon: TrophyIcon,
     description:
-      "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
-  },
-  {
-    color: "red",
-    title: "Free Revisions",
-    icon: ArrowPathIcon,
-    description:
-      "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+      "Sunrise Used Auto has been recognized by the BBC for our great customer service.",
   },
   {
     color: "teal",
-    title: "Verified Company",
-    icon: FingerPrintIcon,
+    title: "4.6 / 5 Stars",
+    icon: StarIcon,
     description:
-      "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+      "We have excellent reviews from our past customers!",
   },
 ];
 

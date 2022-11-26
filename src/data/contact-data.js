@@ -9,19 +9,19 @@ export const contactData = [
     title: "Excelent Services",
     icon: StarIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "We Will make sure your business with us is handeled with much care.",
   },
   {
-    title: "Grow Your Market",
+    title: "Provide Tools",
     icon: PresentationChartLineIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "We equip you with the tools you need to allow you to make the most well informed decisions.",
   },
   {
-    title: "Launch Time",
+    title: "Fast Pace",
     icon: RocketLaunchIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "We do our best to not take up your time and fufill your needs as quick as possible.",
   },
 ];
 
