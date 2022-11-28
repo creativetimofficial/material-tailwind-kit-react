@@ -26,11 +26,11 @@ export function CarsCard({ color, price, title, description }) {
   );
 }
 
-FeatureCard.defaultProps = {
+CarsCard.defaultProps = {
   color: "blue",
 };
 
-FeatureCard.propTypes = {
+CarsCard.propTypes = {
   color: PropTypes.oneOf([
     "blue-gray",
     "gray",
@@ -57,6 +57,6 @@ FeatureCard.propTypes = {
   description: PropTypes.node.isRequired,
 };
 
-FeatureCard.displayName = "/src/widgets/layout/feature-card.jsx";
+Card.displayName = "/src/widgets/layout/feature-card.jsx";
 
 export default CarsCard;
