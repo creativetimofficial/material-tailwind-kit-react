@@ -37,6 +37,7 @@ During the development of this ui kit, we have used many existing resources from
 
 - [Material Tailwind](https://material-tailwind.com/) - Material Tailwind is an easy to use components library for Tailwind CSS and Material Design.
 - [Hero Icons](https://heroicons.com/) - Beautiful hand-crafted SVG icons.
+- [Nepcha Analytics](https://nepcha.com?ref=readme) for the analytics tool. Nepcha is already integrated with Material Tailwind Kit React. You can use it to gain insights into your sources of traffic.
 
 Let us know your thoughts below. And good luck with development!
 
@@ -131,6 +132,7 @@ At present, we officially aim to support the last two versions of the following 
 - [License Agreement](https://www.creative-tim.com/license?ref=readme-mtkr)
 - [Support](https://www.creative-tim.com/contact-us?ref=readme-mtkr)
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/material-tailwind-kit-react/issues)
+- [Nepcha Analytics](https://nepcha.com?ref=readme) - Analytics tool for your website
 
 ## Reporting Issues
 
