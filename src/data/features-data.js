@@ -6,7 +6,7 @@ import {
 
 export const featuresData = [
   {
-    color: "blue",
+    color: "gray",
     title: "Awarded Agency",
     icon: StarIcon,
     description:

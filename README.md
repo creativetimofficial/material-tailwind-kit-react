@@ -1,6 +1,6 @@
 # [Material Tailwind Kit React](http://demos.creative-tim.com/material-tailwind-kit-react/#/?ref=readme-mtkr) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/material-tailwind-kit-react&text=Check%20Material%20Tailwind%20Kit%20React%20made%20by%20@CreativeTim%20#webdesign%20#kit%20#materialdesign%20#react%20#materialtailwind%20#tailwindcss%20https://www.creative-tim.com/product/material-tailwind-kit-react)
 
-![version](https://img.shields.io/badge/version-2.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-tailwind-kit-react.svg)](https://github.com/creativetimofficial/material-tailwind-kit-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-tailwind-kit-react.svg)](https://github.com/creativetimofficial/material-tailwind-kit-react/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-3.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/material-tailwind-kit-react.svg)](https://github.com/creativetimofficial/material-tailwind-kit-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-tailwind-kit-react.svg)](https://github.com/creativetimofficial/material-tailwind-kit-react/issues?q=is%3Aissue+is%3Aclosed)
 
 ![Image](https://s3.amazonaws.com/creativetim_bucket/products/486/original/material-tailwind-kit-react.jpg)
 
@@ -148,7 +148,7 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Licensing
 
-- Copyright 2022 [Creative Tim](https://www.creative-tim.com?ref=readme-mtkr)
+- Copyright 2023 [Creative Tim](https://www.creative-tim.com?ref=readme-mtkr)
 - Creative Tim [license](https://www.creative-tim.com/license?ref=readme-mtkr)
 
 ## Useful Links

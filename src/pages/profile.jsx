@@ -31,7 +31,7 @@ export function Profile() {
                   </div>
                 </div>
                 <div className="mt-10 flex w-full justify-center px-4 lg:order-3 lg:mt-0 lg:w-4/12 lg:justify-end lg:self-center">
-                  <Button className="bg-blue-400">Conntect</Button>
+                  <Button className="bg-gray-900">Conntect</Button>
                 </div>
                 <div className="w-full px-4 lg:order-1 lg:w-4/12">
                   <div className="flex justify-center py-4 pt-8 lg:pt-4">
