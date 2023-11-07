@@ -10,7 +10,7 @@ export const teamData = [
       },
       {
         color: "blue",
-        name: "facebook",
+        name: "linkedin",
       },
       {
         color: "pink",
@@ -29,7 +29,7 @@ export const teamData = [
       },
       {
         color: "blue",
-        name: "facebook",
+        name: "linkedin",
       },
       {
         color: "pink",
@@ -48,7 +48,7 @@ export const teamData = [
       },
       {
         color: "blue",
-        name: "facebook",
+        name: "linkedin",
       },
       {
         color: "pink",
