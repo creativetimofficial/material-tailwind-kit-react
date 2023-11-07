@@ -34,7 +34,7 @@ export function Navbar({ brandName, routes, action }) {
             <a
               href={href}
               target={target}
-              className="flex items-center gap-1 p-1 font-normal"
+              className="flex items-center gap-1 p-1 font-bold"
             >
               {icon &&
                 React.createElement(icon, {
@@ -46,7 +46,7 @@ export function Navbar({ brandName, routes, action }) {
             <Link
               to={path}
               target={target}
-              className="flex items-center gap-1 p-1 font-normal"
+              className="flex items-center gap-1 p-1 font-bold"
             >
               {icon &&
                 React.createElement(icon, {
