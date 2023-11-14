@@ -84,7 +84,7 @@ export function Home() {
                 <CardHeader floated={false} className="relative h-56">
                   <img
                     alt="Card Image"
-                    src="/img/teamwork.png"
+                    src="/material-tailwind-kit-react/img/teamwork.png"
                     className="h-full w-full"
                   />
                 </CardHeader>

@@ -20,7 +20,7 @@ export function Profile() {
               <div className="relative flex gap-6 items-start">
                 <div className="-mt-20 w-40">
                   <Avatar
-                    src="/img/team-5.png"
+                    src="/material-tailwind-kit-react/img/team-5.png"
                     alt="Profile picture"
                     variant="circular"
                     className="h-full w-full"
