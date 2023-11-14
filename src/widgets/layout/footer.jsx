@@ -12,7 +12,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
             <Typography variant="h4" className="mb-4" color="blue-gray">
               {title}
             </Typography>
-            <Typography className="font-normal text-blue-gray-500">
+            <Typography className="font-normal text-blue-gray-500 lg:w-2/5">
               {description}
             </Typography>
             <div className="mx-auto mt-6 mb-8 flex justify-center gap-2 md:mb-0 lg:justify-start">
@@ -23,7 +23,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <IconButton color="white" className="rounded-full">
+                  <IconButton color="white" className="rounded-full shadow-none bg-transparent">
                     <Typography color={color}>
                       <i className={`fa-brands fa-${name}`} />
                     </Typography>
@@ -84,29 +84,19 @@ Footer.defaultProps = {
     "Easy to use React components for Tailwind CSS and Material Design.",
   socials: [
     {
-      color: "blue",
-      name: "facebook",
-      path: "https://www.facebook.com/CreativeTim",
-    },
-    {
-      color: "light-blue",
+      color: "gray",
       name: "twitter",
       path: "https://www.twitter.com/creativetim",
     },
     {
-      color: "purple",
-      name: "instagram",
-      path: "https://www.instagram.com/creativetimofficial/",
-    },
-    {
-      color: "pink",
-      name: "dribbble",
-      path: "https://www.dribbble.com/creativetim",
-    },
-    {
-      color: "red",
+      color: "gray",
       name: "youtube",
       path: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+    },
+    {
+      color: "gray",
+      name: "instagram",
+      path: "https://www.instagram.com/creativetimofficial/",
     },
     {
       color: "black",

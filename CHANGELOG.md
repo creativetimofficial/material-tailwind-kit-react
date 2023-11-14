@@ -1,5 +1,8 @@
 # Change Log
 
+## [2.1.0] 2023-11-14
+- Migrate to @material-tailwind/react latest version of `v2.1.4`
+
 ## [2.0.0] 2022-11-10
 
 - Update the entire structure
