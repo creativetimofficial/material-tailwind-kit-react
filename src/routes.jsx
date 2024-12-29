@@ -1,4 +1,5 @@
-import { Home, Profile, SignIn, SignUp } from "@/pages";
+// import { Home, Profile, SignIn, SignUp, Committee, AboutUs, MeetingNotes, Agenda } from "@/pages";
+import { Home, AboutUs, MeetingNotes, Agenda } from "@/pages";
 
 export const routes = [
   {
@@ -6,20 +7,40 @@ export const routes = [
     path: "/home",
     element: <Home />,
   },
+  // {
+  //   name: "profile",
+  //   path: "/profile",
+  //   element: <Profile />,
+  // },
+  // {
+  //   name: "Sign SIn",
+  //   path: "/sign-in",
+  //   element: <SignIn />,
+  // },
+  // {
+  //   name: "Sign Up",
+  //   path: "/sign-up",
+  //   element: <SignUp />,
+  // },
+  // {
+  //   name: "Committee",
+  //   path: "/committee",
+  //   element: <Committee />,
+  // },
   {
-    name: "profile",
-    path: "/profile",
-    element: <Profile />,
+    name: "About Us",
+    path: "/committee/about-us",
+    element: <AboutUs />,
   },
   {
-    name: "Sign In",
-    path: "/sign-in",
-    element: <SignIn />,
+    name: "Meeting Notes",
+    path: "/committee/meeting-notes",
+    element: <MeetingNotes />,
   },
   {
-    name: "Sign Up",
-    path: "/sign-up",
-    element: <SignUp />,
+    name: "Agenda",
+    path: "/committee/agenda",
+    element: <Agenda />,
   },
   {
     name: "Docs",
