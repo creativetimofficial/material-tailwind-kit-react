@@ -1,4 +1,3 @@
-// import { Home, Profile, SignIn, SignUp, Committee, AboutUs, MeetingNotes, Agenda } from "@/pages";
 import { Home, AboutUs, MeetingNotes, Agenda } from "@/pages";
 
 export const routes = [
@@ -7,40 +6,22 @@ export const routes = [
     path: "/home",
     element: <Home />,
   },
-  // {
-  //   name: "profile",
-  //   path: "/profile",
-  //   element: <Profile />,
-  // },
-  // {
-  //   name: "Sign SIn",
-  //   path: "/sign-in",
-  //   element: <SignIn />,
-  // },
-  // {
-  //   name: "Sign Up",
-  //   path: "/sign-up",
-  //   element: <SignUp />,
-  // },
-  // {
-  //   name: "Committee",
-  //   path: "/committee",
-  //   element: <Committee />,
-  // },
   {
-    name: "About Us",
-    path: "/committee/about-us",
-    element: <AboutUs />,
-  },
-  {
-    name: "Meeting Notes",
-    path: "/committee/meeting-notes",
-    element: <MeetingNotes />,
-  },
-  {
-    name: "Agenda",
-    path: "/committee/agenda",
-    element: <Agenda />,
+    name: "Committee",
+    dropdown: [
+      {
+        name: "About Us",
+        path: "/committee/about-us",
+      },
+      {
+        name: "Meeting Notes",
+        path: "/committee/meeting-notes",
+      },
+      {
+        name: "Agenda",
+        path: "/committee/agenda",
+      },
+    ],
   },
   {
     name: "Docs",
@@ -51,3 +32,34 @@ export const routes = [
 ];
 
 export default routes;
+
+
+// const routes = [
+//   {
+//     name: "Home",
+//     path: "/home",
+//   },
+//   {
+//     name: "Committee",
+//     dropdown: [
+//       {
+//         name: "About Us",
+//         path: "/about-us",
+//       },
+//       {
+//         name: "Meeting Notes",
+//         path: "/meeting-notes",
+//       },
+//       {
+//         name: "Agenda",
+//         path: "/agenda",
+//       },
+//     ],
+//   },
+//   {
+//     name: "Docs",
+//     path: "/docs",
+//   },
+// ];
+
+// export default routes;

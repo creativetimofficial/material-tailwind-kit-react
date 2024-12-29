@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import {
@@ -11,7 +11,9 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 export function Navbar({ brandName, routes, action }) {
-  const [openNav, setOpenNav] = React.useState(false);
+  const [openNav, setOpenNav] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [dropdownTimeout, setDropdownTimeout] = useState(null);
 
   React.useEffect(() => {
     window.addEventListener(
@@ -20,26 +22,62 @@ export function Navbar({ brandName, routes, action }) {
     );
   }, []);
 
+  const handleMouseEnter = () => {
+    if (dropdownTimeout) clearTimeout(dropdownTimeout);
+    setDropdownOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    const timeout = setTimeout(() => {
+      setDropdownOpen(false);
+    }, 200); // Adjust delay if needed
+    setDropdownTimeout(timeout);
+  };
+
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 text-inherit lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      {routes.map(({ name, path, icon, href, target }) => (
+      {routes.map(({ name, path, dropdown, href, target }) => (
         <Typography
           key={name}
           as="li"
           variant="small"
           color="inherit"
-          className="capitalize"
+          className="capitalize relative"
+          onMouseEnter={dropdown ? handleMouseEnter : undefined}
+          onMouseLeave={dropdown ? handleMouseLeave : undefined}
         >
-          {href ? (
+          {dropdown ? (
+            <>
+              <span className="cursor-pointer flex items-center gap-1 p-1 font-bold">
+                {name}
+              </span>
+              {dropdownOpen && (
+                <div
+                  className="absolute left-0 top-full mt-2 z-50 bg-white shadow-lg rounded-lg p-2 transition-opacity duration-300"
+                >
+                  <ul>
+                    {dropdown.map(({ name: dropdownName, path: dropdownPath }) => (
+                      <li
+                        key={dropdownName}
+                        className="p-2 hover:bg-blue-500 hover:text-white rounded text-gray-800 font-bold"
+                      >
+                        <Link to={dropdownPath} className="block"
+                          onClick={() => setDropdownOpen(false)}
+                        >
+                          {dropdownName}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </>
+          ) : href ? (
             <a
               href={href}
               target={target}
               className="flex items-center gap-1 p-1 font-bold"
             >
-              {icon &&
-                React.createElement(icon, {
-                  className: "w-[18px] h-[18px] opacity-75 mr-1",
-                })}
               {name}
             </a>
           ) : (
@@ -48,10 +86,6 @@ export function Navbar({ brandName, routes, action }) {
               target={target}
               className="flex items-center gap-1 p-1 font-bold"
             >
-              {icon &&
-                React.createElement(icon, {
-                  className: "w-[18px] h-[18px] opacity-75 mr-1",
-                })}
               {name}
             </Link>
           )}
@@ -123,10 +157,7 @@ export function Navbar({ brandName, routes, action }) {
 Navbar.defaultProps = {
   brandName: "Richmond Rise Residents Association",
   action: (
-    <a
-      href="http://www.richmondrise.info"
-      target="_blank"
-    >
+    <a href="http://www.richmondrise.info" target="_blank">
       <Button variant="gradient" size="sm" fullWidth>
         Contact Us
       </Button>
