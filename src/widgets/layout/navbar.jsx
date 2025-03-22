@@ -69,7 +69,7 @@ export function Navbar({ brandName, routes, action }) {
           </Typography>
         </Link>
         <div className="hidden lg:block">{navList}</div>
-        <div className="hidden gap-2 lg:flex">
+        {/* <div className="hidden gap-2 lg:flex">
           <a
             href="https://www.material-tailwind.com/blocks?ref=mtkr"
             target="_blank"
@@ -81,7 +81,7 @@ export function Navbar({ brandName, routes, action }) {
           {React.cloneElement(action, {
             className: "hidden lg:inline-block",
           })}
-        </div>
+        </div> */}
         <IconButton
           variant="text"
           size="sm"
@@ -102,15 +102,7 @@ export function Navbar({ brandName, routes, action }) {
       >
         <div className="container mx-auto">
           {navList}
-          <a
-            href="https://www.material-tailwind.com/blocks/react?ref=mtkr"
-            target="_blank"
-            className="mb-2 block"
-          >
-            <Button variant="text" size="sm" fullWidth>
-              pro version
-            </Button>
-          </a>
+          
           {React.cloneElement(action, {
             className: "w-full block",
           })}
@@ -121,16 +113,9 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "Material Tailwind React",
+  brandName: "SasekLabs",
   action: (
-    <a
-      href="https://www.creative-tim.com/product/material-tailwind-kit-react"
-      target="_blank"
-    >
-      <Button variant="gradient" size="sm" fullWidth>
-        free download
-      </Button>
-    </a>
+    <></>
   ),
 };
 

@@ -19,7 +19,7 @@ export function TeamCard({ img, name, position, socials }) {
           {position}
         </Typography>
       )}
-      {socials && <div className="mx-auto mt-5">{socials}</div>}
+      {/* {socials && <div className="mx-auto mt-5">{socials}</div>} */}
     </Card>
   );
 }

@@ -1,28 +1,26 @@
-import {
-  ChatBubbleBottomCenterTextIcon,
-} from "@heroicons/react/24/solid";
+import { ChatBubbleBottomCenterTextIcon,StarIcon,ShareIcon,BuildingOffice2Icon,RocketLaunchIcon } from "@heroicons/react/24/solid";
 
 export const featuresData = [
   {
-    color: "gray",
-    title: "Awarded Agency",
-    icon: ChatBubbleBottomCenterTextIcon,
+    color: "orange",
+    title: "Innovation",
+    icon: StarIcon,
     description:
-      "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
+      "We offer services leveraging all forms of digital technology to let your company stand out from the competition.",
+  },
+  {
+    color: "red",
+    title: "Speed and Efficiency",
+    icon: RocketLaunchIcon,
+    description:
+      "Technology drives the market at speed beyond limits. This is what we set out to do for you with our services. To set your business soaring with increased productivity and efficiency.",
   },
   {
     color: "gray",
-    title: "Free Revisions",
-    icon: ChatBubbleBottomCenterTextIcon,
+    title: "Automation",
+    icon: BuildingOffice2Icon,
     description:
-      "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
-  },
-  {
-    color: "gray",
-    title: "Verified Company",
-    icon: ChatBubbleBottomCenterTextIcon,
-    description:
-      "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+      "Automation is gaining credence as one of the ways business scale up their operations and also, of course- to avoid those annoying repetitive tasks 😉 to focus on what truly matters in the company.",
   },
 ];
 

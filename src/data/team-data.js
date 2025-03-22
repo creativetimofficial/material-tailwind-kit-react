@@ -1,8 +1,8 @@
 export const teamData = [
   {
-    img: "/img/team-1.jpg",
-    name: "Ryan Tompson",
-    position: "Web Developer",
+    img: "/img/ser2.jpeg",
+    name: "Business Automation",
+    position: "Optimize workflows, reduce manual tasks, and increase efficiency with smart automation tools",
     socials: [
       {
         color: "light-blue",
@@ -19,9 +19,9 @@ export const teamData = [
     ],
   },
   {
-    img: "/img/team-2.jpg",
-    name: "Romina Hadid",
-    position: "Marketing Specialist",
+    img: "/img/ser3.jpeg",
+    name: "Custom Software Development",
+    position: "Tailored solutions to fit your business needs, from web and mobile apps to enterprise systems.",
     socials: [
       {
         color: "light-blue",
@@ -38,28 +38,9 @@ export const teamData = [
     ],
   },
   {
-    img: "/img/team-3.jpg",
-    name: "Alexa Smith",
-    position: "UI/UX Designer",
-    socials: [
-      {
-        color: "light-blue",
-        name: "twitter",
-      },
-      {
-        color: "blue",
-        name: "linkedin",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
-      },
-    ],
-  },
-  {
-    img: "/img/team-4.png",
-    name: "Jenna Kardi",
-    position: "Founder and CEO",
+    img: "/img/ser4.jpeg",
+    name: "E-commerce & Website Solutions",
+    position: "Get a sleek, high-performing online presence that attracts and converts customers.",
     socials: [
       {
         color: "light-blue",
@@ -75,6 +56,25 @@ export const teamData = [
       },
     ],
   },
+  {
+    img: "/img/service3.jpg",
+    name: "Technical Documentation",
+    position: "We create precise, user-friendly documentation to streamline processes and enhance clarity for your business.",
+    socials: [
+      {
+        color: "light-blue",
+        name: "twitter",
+      },
+      {
+        color: "blue",
+        name: "linkedin",
+      },
+      {
+        color: "pink",
+        name: "dribbble",
+      },
+    ],
+  }
 ];
 
 export default teamData;
